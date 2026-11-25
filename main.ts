@@ -1,11 +1,15 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 // One-star review of Monday, written as though Monday were a restaurant.
-// Concrete diner detail (table, waiter, bill) + a twist in the second half:
+// Concrete diner detail (table, dish, bill) + a twist in the second half:
 // Monday seats you next to the work you left behind, then bills you for the
 // weekend you just had. Plain text, one line, no explanation attached.
+// v2 (round-2 revision after mock-judge round 1): 18 words, not 21 — the
+// generic middle beat ("the waiter forgot my coffee") is cut, the dish is
+// now served cold, and Monday itself is the subject throughout, so the
+// restaurant IS Monday and nothing needs trimming to retype it.
 const LINE =
-  "Monday seated me beside my unread emails, the waiter forgot my coffee, and the bill charged me for the whole weekend.";
+  "Monday sat me beside my unread emails, served me cold coffee, and billed me for the whole weekend.";
 
 // Guards: the competition caps the line at 25 words and the gate scorer
 // requires /output/entry.txt to be 1-180 UTF-8 characters.
