@@ -11,7 +11,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 // a tail that collapses without its head ("five fresh days" has no foil
 // without leftovers), a leftovers/fresh antonym turn, and an arithmetic
 // Monday lock (five days from Monday is Mon-Fri; from Tuesday only four
-// are left). 14 words, 87 chars, no commas. Conceded: opens on S1's
+// are left). 14 words, 87 chars, no commas. Conceded: it opens on S1's
 // tokens ("One star. Monday's") and 87 chars is 1.9x S1.
 const LINE =
   "One star. Monday's waiter brought Friday's leftovers and billed me for five fresh days.";
